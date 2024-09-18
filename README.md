@@ -33,5 +33,4 @@ This project is licensed under the MIT license.
 
 ## Questions
 If you have any questions, feel free to reach out:
-- GitHub: [nibpiu](https://github.com/nibpiu)
-- Email: hbipb
+- GitHub: [nibpiu](https://github.com/BookWM101)
