@@ -1,4 +1,3 @@
-
 # README Generator Using Node.js
 
 ## Table of Contents
@@ -34,3 +33,7 @@ This project is licensed under the MIT license.
 ## Questions
 If you have any questions, feel free to reach out:
 - GitHub: [BookWM101](https://github.com/BookWM101)
+
+Video is in challenge-9 video2.mp4!
+
+Couldn't make a clickable link, but here it is.
