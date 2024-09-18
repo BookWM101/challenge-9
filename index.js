@@ -25,8 +25,13 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'testing',
+    message: 'How do you test the project?',
+  },
+  {
+    type: 'input',
     name: 'contributors',
-    message: 'Who contributed to your project?'
+    message: 'Who contributed to your project?',
   },
   {
     type: 'input',
@@ -49,23 +54,34 @@ const questions = [
 const generateREADME = (answers) => `
 # ${answers.projectTitle}
 
-## Description:
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributors](#contributors)
+- [License](#license)
+- [Questions](#questions)
+
+## Description
 ${answers.description}
 
-## Installation:
+## Installation
 \`\`\`
 ${answers.installation}
 \`\`\`
 
-## Usage:
+## Usage
 ${answers.usage}
 
-## Contributors:
+## Testing
+${answers.testing}
+
+## Contributors
 ${answers.contributors}
 
-## License:
+## License
 This project is licensed under the ${answers.license} license.
-
 
 ## Questions
 If you have any questions, feel free to reach out:
